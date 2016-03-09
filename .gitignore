@@ -1,7 +1,6 @@
 # Customize ---------------------------------------------------------------------------------
 
 /node_modules
-/build/javascripts
 *.DS_Store
 npm-debug.log
 
