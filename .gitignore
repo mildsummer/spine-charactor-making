@@ -2,7 +2,6 @@
 
 /node_modules
 /build/javascripts
-/build
 *.DS_Store
 npm-debug.log
 
