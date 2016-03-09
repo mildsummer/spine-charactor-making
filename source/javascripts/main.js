@@ -39,7 +39,6 @@ Promise.all([getSkeltonJSON, getSpriteJSON, getSpriteImage])
     let sprite = data[2];
     let renderer = new spine.SkeletonRenderer(sprite, spriteJSON);
     renderer.scale = 0.6;
-    console.log(skeltonJSON);
     renderer.load(skeltonJSON);
     renderer.state.data.defaultMix = 0.4;
     renderer.state.setAnimationByName(0, "walk", true);
@@ -48,4 +47,10 @@ Promise.all([getSkeltonJSON, getSpriteJSON, getSpriteImage])
     renderer.skeleton.x = 320;
     renderer.skeleton.y = 450;
     renderer.animate(document.querySelector('canvas'));
+    Object.keys(spriteJSON).forEach(function(name) {
+      let $button = $(`<button data-part="${name}">${name}</button>`).click(function() {
+        renderer.changePart(name);
+      });
+      $('body').append($button);
+    });
   });

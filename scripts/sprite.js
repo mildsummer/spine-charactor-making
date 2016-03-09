@@ -28,16 +28,15 @@ fs.readdirSync(source).forEach(function(dirName) {
 //  }
 //});
 
-var getDirName = require("path").dirname
-function writeFile (path, contents, cb) {
-  mkdirp(getDirName(path), function (err) {
-    if (err) return cb(err)
-    fs.writeFile(path, contents, function (err) {
+function writeFile (filePath, contents, cb) {
+  mkdirp(path.dirname(filePath), function (err) {
+    if (err) return cb(err);
+    fs.writeFile(filePath, contents, function (err) {
       if(err) {
         console.log(err);
       }
     });
-  })
+  });
 }
 
 var beautify = require("json-beautify");

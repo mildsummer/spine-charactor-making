@@ -32,6 +32,11 @@
 spine.SkeletonRenderer = function (sprite, spriteJSON) {
 	this.sprite = sprite;
 	this.spriteJSON = spriteJSON;
+	var partState = {};
+	Object.keys(spriteJSON).forEach(function(name) {
+		partState[name] = 'default';
+	});
+	this.partState = partState;
 	this.lastTime = Date.now();
 };
 
@@ -88,7 +93,7 @@ spine.SkeletonRenderer.prototype = {
 			var w = attachment.width * bone.worldScaleX, h = attachment.height * bone.worldScaleY;
 			context.translate(x, y);
 			context.rotate(rotation);
-			var rect = this.spriteJSON[attachment.name].default;
+			var rect = this.spriteJSON[attachment.name][this.partState[attachment.name]];
 			context.drawImage(this.sprite, rect.x, rect.y, rect.width, rect.height, -w / 2, -h / 2, w, h);
 			context.rotate(-rotation);
 			context.translate(-x, -y);
@@ -113,5 +118,10 @@ spine.SkeletonRenderer.prototype = {
 			requestAnimationFrame(renderFrame);
 		};
 		renderFrame();
+	},
+
+	changePart: function (name) {
+		this.partState[name] = (this.partState[name] === 'default') ? 'complementary' : 'default';
+		console.log(this.partState[name]);
 	}
 };

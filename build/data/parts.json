@@ -1,141 +1,249 @@
 {
   "eye_indifferent": {
+    "complementary": {
+      "x": 243,
+      "y": 864,
+      "width": 93,
+      "height": 89
+    },
     "default": {
-      "x": 841,
-      "y": 383,
+      "x": 336,
+      "y": 864,
       "width": 93,
       "height": 89
     }
   },
   "eye_surprised": {
+    "complementary": {
+      "x": 1032,
+      "y": 770,
+      "width": 93,
+      "height": 89
+    },
     "default": {
-      "x": 82,
-      "y": 566,
+      "x": 150,
+      "y": 864,
       "width": 93,
       "height": 89
     }
   },
   "front_bracer": {
+    "complementary": {
+      "x": 1134,
+      "y": 706,
+      "width": 58,
+      "height": 80
+    },
     "default": {
-      "x": 261,
-      "y": 566,
+      "x": 1134,
+      "y": 626,
       "width": 58,
       "height": 80
     }
   },
   "front_fist_closed": {
+    "complementary": {
+      "x": 542,
+      "y": 767,
+      "width": 75,
+      "height": 82
+    },
     "default": {
-      "x": 261,
-      "y": 483,
+      "x": 467,
+      "y": 767,
       "width": 75,
       "height": 82
     }
   },
   "front_fist_open": {
+    "complementary": {
+      "x": 429,
+      "y": 864,
+      "width": 86,
+      "height": 87
+    },
     "default": {
-      "x": 175,
-      "y": 566,
+      "x": 515,
+      "y": 864,
       "width": 86,
       "height": 87
     }
   },
   "front_foot": {
+    "complementary": {
+      "x": 798,
+      "y": 566,
+      "width": 126,
+      "height": 69
+    },
     "default": {
-      "x": 462,
-      "y": 298,
+      "x": 261,
+      "y": 698,
       "width": 126,
       "height": 69
     }
   },
   "front_foot_bend1": {
+    "complementary": {
+      "x": 670,
+      "y": 566,
+      "width": 128,
+      "height": 70
+    },
     "default": {
-      "x": 733,
-      "y": 476,
+      "x": 542,
+      "y": 566,
       "width": 128,
       "height": 70
     }
   },
   "front_foot_bend2": {
+    "complementary": {
+      "x": 924,
+      "y": 770,
+      "width": 108,
+      "height": 93
+    },
     "default": {
-      "x": 733,
-      "y": 383,
+      "x": 803,
+      "y": 400,
       "width": 108,
       "height": 93
     }
   },
   "front_shin": {
+    "complementary": {
+      "x": 1006,
+      "y": 586,
+      "width": 82,
+      "height": 184
+    },
     "default": {
-      "x": 0,
-      "y": 566,
+      "x": 924,
+      "y": 586,
       "width": 82,
       "height": 184
     }
   },
   "front_thigh": {
+    "complementary": {
+      "x": 1134,
+      "y": 208,
+      "width": 48,
+      "height": 112
+    },
     "default": {
-      "x": 943,
-      "y": 0,
+      "x": 1134,
+      "y": 320,
       "width": 48,
       "height": 112
     }
   },
   "front_upper_arm": {
+    "complementary": {
+      "x": 1134,
+      "y": 529,
+      "width": 54,
+      "height": 97
+    },
     "default": {
-      "x": 65,
-      "y": 750,
+      "x": 1134,
+      "y": 432,
       "width": 54,
       "height": 97
     }
   },
   "goggles": {
-    "default": {
+    "complementary": {
       "x": 0,
+      "y": 698,
+      "width": 261,
+      "height": 166
+    },
+    "default": {
+      "x": 542,
       "y": 400,
       "width": 261,
       "height": 166
     }
   },
   "gun": {
+    "complementary": {
+      "x": 924,
+      "y": 203,
+      "width": 210,
+      "height": 203
+    },
     "default": {
-      "x": 733,
+      "x": 924,
       "y": 0,
       "width": 210,
       "height": 203
     }
   },
   "head": {
+    "complementary": {
+      "x": 271,
+      "y": 400,
+      "width": 271,
+      "height": 298
+    },
     "default": {
-      "x": 462,
-      "y": 0,
+      "x": 0,
+      "y": 400,
       "width": 271,
       "height": 298
     }
   },
   "mouth_grind": {
+    "complementary": {
+      "x": 783,
+      "y": 698,
+      "width": 93,
+      "height": 59
+    },
     "default": {
-      "x": 477,
-      "y": 400,
+      "x": 617,
+      "y": 767,
       "width": 93,
       "height": 59
     }
   },
   "mouth_oooo": {
+    "complementary": {
+      "x": 768,
+      "y": 636,
+      "width": 93,
+      "height": 59
+    },
     "default": {
-      "x": 570,
-      "y": 400,
+      "x": 504,
+      "y": 698,
       "width": 93,
       "height": 59
     }
   },
   "mouth_smile": {
+    "complementary": {
+      "x": 597,
+      "y": 698,
+      "width": 93,
+      "height": 59
+    },
     "default": {
-      "x": 336,
-      "y": 483,
+      "x": 690,
+      "y": 698,
       "width": 93,
       "height": 59
     }
   },
   "muzzle": {
+    "complementary": {
+      "x": 462,
+      "y": 0,
+      "width": 462,
+      "height": 400
+    },
     "default": {
       "x": 0,
       "y": 0,
@@ -144,73 +252,127 @@
     }
   },
   "neck": {
+    "complementary": {
+      "x": 1088,
+      "y": 627,
+      "width": 36,
+      "height": 41
+    },
     "default": {
-      "x": 943,
-      "y": 199,
+      "x": 1088,
+      "y": 586,
       "width": 36,
       "height": 41
     }
   },
   "rear_bracer": {
+    "complementary": {
+      "x": 1134,
+      "y": 960,
+      "width": 56,
+      "height": 72
+    },
     "default": {
-      "x": 319,
-      "y": 566,
+      "x": 601,
+      "y": 864,
       "width": 56,
       "height": 72
     }
   },
   "rear_foot": {
+    "complementary": {
+      "x": 542,
+      "y": 636,
+      "width": 113,
+      "height": 60
+    },
     "default": {
-      "x": 364,
-      "y": 400,
+      "x": 655,
+      "y": 636,
       "width": 113,
       "height": 60
     }
   },
   "rear_foot_bend1": {
+    "complementary": {
+      "x": 387,
+      "y": 698,
+      "width": 117,
+      "height": 66
+    },
     "default": {
-      "x": 588,
-      "y": 298,
+      "x": 803,
+      "y": 493,
       "width": 117,
       "height": 66
     }
   },
   "rear_foot_bend2": {
+    "complementary": {
+      "x": 364,
+      "y": 767,
+      "width": 103,
+      "height": 83
+    },
     "default": {
       "x": 261,
-      "y": 400,
+      "y": 767,
       "width": 103,
       "height": 83
     }
   },
   "rear_shin": {
+    "complementary": {
+      "x": 75,
+      "y": 864,
+      "width": 75,
+      "height": 178
+    },
     "default": {
-      "x": 831,
-      "y": 203,
+      "x": 0,
+      "y": 864,
       "width": 75,
       "height": 178
     }
   },
   "rear_thigh": {
+    "complementary": {
+      "x": 1134,
+      "y": 104,
+      "width": 65,
+      "height": 104
+    },
     "default": {
-      "x": 0,
-      "y": 750,
+      "x": 1134,
+      "y": 0,
       "width": 65,
       "height": 104
     }
   },
   "rear_upper_arm": {
+    "complementary": {
+      "x": 1134,
+      "y": 786,
+      "width": 47,
+      "height": 87
+    },
     "default": {
-      "x": 943,
-      "y": 112,
+      "x": 1134,
+      "y": 873,
       "width": 47,
       "height": 87
     }
   },
   "torso": {
+    "complementary": {
+      "x": 924,
+      "y": 406,
+      "width": 98,
+      "height": 180
+    },
     "default": {
-      "x": 733,
-      "y": 203,
+      "x": 1022,
+      "y": 406,
       "width": 98,
       "height": 180
     }
