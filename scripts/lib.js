@@ -20,7 +20,7 @@ var isLicenseComment = (function() {
   };
 })();
 
-var result = UglifyJS.minify(['source/bower_components/jquery/dist/jquery.js'], {
+var result = UglifyJS.minify(['source/bower_components/jquery/dist/jquery.js', 'source/spine-js/spine.js', 'source/javascripts/spine-canvas.js'], {
   outSourceMap: "lib.js.map",
   output: {
     comments: isLicenseComment

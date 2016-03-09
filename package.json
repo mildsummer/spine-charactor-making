@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node scripts/sprite.js && webpack"
+    "start": "node scripts/sprite.js && node scripts/lib.js && webpack"
   },
   "author": "",
   "license": "ISC",
